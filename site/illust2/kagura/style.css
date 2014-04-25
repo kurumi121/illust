@@ -1,0 +1,188 @@
+/*
+kagura css
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #FFF4F4;
+	background-image: url(../../img/haikei.jpg);
+}
+
+/*===========
+#header
+===========*/
+
+#header {
+	width: 800px;
+	height: 250px;
+	margin: auto;
+	color: #FD7474;
+	background-image: url(../../img/haikei5.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+#header {
+	*zoom: 1;
+}
+#header:after {
+	clear: both;
+	display: block;
+	content:  "";
+}
+#header h1 {
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 1px;
+}
+#header .li,
+#header .li2,
+#header .li3,
+#header .li4,
+#header .li5 {
+	width: 120px;
+	float: left;
+	margin-top: 220px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+	font-weight: 700;
+}
+#header .game,
+#header .comic {
+	border-radius: 10px;
+}
+#header ul{
+	text-align: center;
+	list-style-type: none;
+}
+#header .a,
+#header .a2,
+#header .a3,
+#header .a4,
+#header .a5 {
+	text-decoration: none;
+	color: white;
+	font-size: 125%;
+}
+#header .a6,
+#header .a7 {
+	text-decoration: none;
+	color: white;
+}
+/*==========
+#content ç\ë¢
+==========*/
+#content {
+	background-color: white;
+	width: 800px;
+	margin: auto;
+	padding-bottom: 400px;
+	margin-bottom: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: 25px;
+}
+#content .art {
+	color: #E19DDE;
+	
+	margin-left: 15px;
+	margin-top: 25px;
+	width: 295px;
+	float: left;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-image: url(../../img/haikei4.jpg);
+}
+#content {
+	*zoom: 1;
+}
+#content:after {
+	clear: both;
+	display: block;
+	content:  "";
+}
+
+#main .illust {
+	color: #E19DDE;
+	
+	margin-left: 15px;
+	margin-top: 25px;
+	width: 295px;
+	float: left;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-image: url(../../img/haikei4.jpg);
+}
+#main .name {
+	margin-top: 50px;
+	margin-left: 150px;
+	background-image: url(../../img/kagura.jpg);
+	background-repeat: no-repeat;
+	padding-left: 5px;
+	height: 500px;
+	color: #E19DDE;
+	width: 500px;
+	float: left;
+}
+#main a {
+	color: white;
+	text-decoration: none;
+}
+#main .li6,
+#main .li7,
+#main .li8 {
+	width: 100px;
+	float: right;
+	border-radius: 50px;
+	margin-top: 30px;
+	padding: 3px;
+}
+#main .li6 {
+	margin-right:150px;
+}
+#main .li7 {
+	margin-right: 95px;
+}
+#main .li8 {
+	margin-right: 85px; 
+}
+
+/*===========
+on ç\ë¢
+===========*/
+.on {
+	color: red;
+}
+
+ul li ul {
+	display: none;
+}
+
+.on ul {
+	display: block;
+}
+ ul li:hover {
+	background-image: url(../../img/haikei3.jpg);
+}
+ul li ul li {
+	background-image: url(img/haikei2.jpg);
+	
+}
+ul li {
+	background-color: pink;
+	width: 120px;
+	list-style-type: none;
+	text-align: center;
+}
